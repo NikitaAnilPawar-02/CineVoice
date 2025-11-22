@@ -13,7 +13,7 @@ CineVoice is a simple and fast React application that allows users to search ite
 ## Tech Stack
 
 - React
-- TypeScript
+- JavaScript
 - HTML
 - CSS
 - React Icons

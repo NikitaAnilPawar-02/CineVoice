@@ -110,8 +110,9 @@
 @media (max-width: 768px) {
 
   .movie-poster {
-    height: 200px;
-  }
+  height: auto;
+  aspect-ratio: 2 / 3;
+}
   
   .movie-card {
     font-size: 0.9rem;

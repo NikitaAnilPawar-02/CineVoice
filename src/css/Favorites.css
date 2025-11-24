@@ -34,7 +34,6 @@
 }
 
 
-/* Animation for new favorites being added */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -50,3 +49,12 @@
   animation: fadeIn 0.3s ease-out forwards;
 }
 
+@media (max-width: 480px) {
+  .favorites h2 {
+    font-size: 1.8rem;
+  }
+
+  .favorites-empty {
+    padding: 2rem 1rem;
+  }
+}

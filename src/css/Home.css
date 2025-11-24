@@ -42,6 +42,15 @@
   background-color: #f40612;
 }
 
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 
 @media (max-width: 639px) {
   .home {
@@ -74,3 +83,19 @@
   cursor: pointer;
   font-size: 20px;
 }
+
+@media (max-width: 480px) {
+  .movies-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .search-form {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .search-button {
+    width: 100%;
+  }
+}
+
